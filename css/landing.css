@@ -15,3 +15,27 @@ html, body {
 #preloader.fade-out {
   opacity: 0;
 }
+
+@media (max-width:799px) {
+  html, body {
+    overflow: hidden;
+  }
+
+  #preloader{
+  background-size: 200%;
+  height: 100%;
+}
+#preloader.fade-out {
+  height: 100vh;
+}
+}
+
+@media (max-width:477px) {
+  #preloader{
+    background-size: 150%;
+    height: 100vh;
+  }
+  #preloader.fade-out {
+    height: 100vh;
+  }
+  }
