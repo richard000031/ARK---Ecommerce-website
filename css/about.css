@@ -152,7 +152,6 @@ body {
     display: none;
 }
 
-/* 以下原黨 */
 
 section {
   padding: 5rem 9%;
@@ -652,6 +651,14 @@ footer a:hover {
       width: 155px;
       margin: 0 0 15px 0;
   }
+
+  .category .box-container .box img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
   #product1 .pro {
       width: 100%;
   }
