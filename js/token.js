@@ -70,10 +70,10 @@ const showAlert = (msg, type='error') => {
     alertMsg.innerHTML = msg;
 
     if(type == 'success'){
-        alertImg.src = `../img/loader/success.png`;
+        alertImg.src = `./img/loader/success.png`;
         alertMsg.style.color = `#0ab50a`;
     } else{ // means it is an err
-        alertImg.src = `../img/loader/error.png`;
+        alertImg.src = `./img/loader/error.png`;
         alertMsg.style.color = null;
     }
 
